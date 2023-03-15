@@ -1,0 +1,57 @@
+[
+ {
+  "titre": "Avatar",
+  "type": "Science fiction, Aventure",
+  "producteur": "James Cameron",
+  "realisateur": "James Cameron",
+  "date_sortie": "12\/16\/2009",
+  "resume": "Malgré sa paralysie, Jake Sully, un ancien marine immobilisé dans un fauteuil roulant, est resté un combattant au plus profond de son être. Il est recruté pour se rendre à des années-lumière de la Terre, sur Pandora, où de puissants groupes industriels exploitent un minerai rarissime destiné à résoudre la crise énergétique sur Terre. Parce que l'atmosphère de Pandora est toxique pour les humains, ceux-ci ont créé le Programme Avatar, qui permet à des \" pilotes \" humains de lier leur esprit à un avatar, un corps biologique commandé à distance, capable de survivre dans cette atmosphère létale. Ces avatars sont des hybrides créés génétiquement en croisant l'ADN humain avec celui des Na'vi, les autochtones de Pandora.\nSous sa forme d'avatar, Jake peut de nouveau marcher. On lui confie une mission d'infiltration auprès des Na'vi, devenus un obstacle trop conséquent à l'exploitation du précieux minerai. Mais tout va changer lorsque Neytiri, une très belle Na'vi, sauve la vie de Jake...",
+  "opinion": "Très bien !",
+  "note": 4,
+  "image": "..\/assets\/avatar.png"
+ },
+ {
+  "titre": "V pour Vendetta",
+  "type": "Science fiction, Action",
+  "producteur": "David Lloyd, Lilly Wachowski",
+  "realisateur": "James McTeigue",
+  "date_sortie": "04\/19\/2006",
+  "resume": "Londres, au 21ème siècle...\nEvey Hammond ne veut rien oublier de l'homme qui lui sauva la vie et lui permit de dominer ses peurs les plus lointaines. Mais il fut un temps où elle n'aspirait qu'à l'anonymat pour échapper à une police secrète omnipotente. Comme tous ses concitoyens, trop vite soumis, elle acceptait que son pays ait perdu son âme et se soit donné en masse au tyran Sutler et à ses partisans.\nUne nuit, alors que deux \"gardiens de l'ordre\" s'apprêtaient à la violer dans une rue déserte, Evey vit surgir son libérateur. Et rien ne fut plus comme avant.\nSon apprentissage commença quelques semaines plus tard sous la tutelle du mystérieux \"V\"..",
+  "opinion": "Très bien !",
+  "note": 5,
+  "image": "..\/assets\/vpourvendetta.png"
+ },
+ {
+  "titre": "Avengers",
+  "type": "Action, Aventure, Science fiction",
+  "producteur": "Joss Whedon, Stand Lee",
+  "realisateur": "Joss Whedon",
+  "date_sortie": "04\/20\/2012",
+  "resume": "Lorsque Nick Fury, le directeur du S.H.I.E.L.D., l'organisation qui préserve la paix au plan mondial, cherche à former une équipe de choc pour empêcher la destruction du monde, Iron Man, Hulk, Thor, Captain America, Hawkeye et Black Widow répondent présents.\nLes Avengers ont beau constituer la plus fantastique des équipes, il leur reste encore à apprendre à travailler ensemble, et non les uns contre les autres, d'autant que le redoutable Loki a réussi à accéder au Cube Cosmique et à son pouvoir illimité...",
+  "opinion": "Très bien !",
+  "note": 3,
+  "image": "..\/assets\/avengers.png"
+ },
+ {
+  "titre": "Blade Runner",
+  "type": "Science fiction",
+  "producteur": "Philip K. Dick, David Webb Peoples",
+  "realisateur": "Ridley Scott",
+  "date_sortie": "09\/15\/1982",
+  "resume": "Dans les dernières années du 20ème siècle, des milliers d'hommes et de femmes partent à la conquête de l'espace, fuyant les mégalopoles devenues insalubres. Sur les colonies, une nouvelle race d'esclaves voit le jour : les répliquants, des androïdes que rien ne peut distinguer de l'être humain. Los Angeles, 2019. Après avoir massacré un équipage et pris le contrôle d'un vaisseau, les répliquants de type Nexus 6, le modèle le plus perfectionné, sont désormais déclarés \"hors la loi\". Quatre d'entre eux parviennent cependant à s'échapper et à s'introduire dans Los Angeles. Un agent d'une unité spéciale, un blade-runner, est chargé de les éliminer. Selon la terminologie officielle, on ne parle pas d'exécution, mais de retrait...",
+  "opinion": "Très bien !",
+  "note": 2,
+  "image": "..\/assets\/bladerunner.png"
+ },
+ {
+  "titre": "Tu ne tueras point",
+  "type": "Guerre, Drame, Biopic",
+  "producteur": "Robert Schenkkan, Andrew Knight",
+  "realisateur": "Mel Gibson",
+  "date_sortie": "11\/09\/2016",
+  "resume": "Quand la Seconde Guerre mondiale a éclaté, Desmond, un jeune américain, s’est retrouvé confronté à un dilemme : comme n’importe lequel de ses compatriotes, il voulait servir son pays, mais la violence était incompatible avec ses croyances et ses principes moraux. Il s’opposait ne serait-ce qu’à tenir une arme et refusait d’autant plus de tuer.\n\nIl s’engagea tout de même dans l’infanterie comme médecin. Son refus d’infléchir ses convictions lui valut d’être rudement mené par ses camarades et sa hiérarchie, mais c’est armé de sa seule foi qu’il est entré dans l’enfer de la guerre pour en devenir l’un des plus grands héros. Lors de la bataille d’Okinawa sur l’imprenable falaise de Maeda, il a réussi à sauver des dizaines de vies seul sous le feu de l’ennemi, ramenant en sureté, du champ de bataille, un à un les soldats blessés.",
+  "opinion": "Très bien !",
+  "note": 5,
+  "image": "..\/assets\/tunetueraspoint.png"
+ }
+]

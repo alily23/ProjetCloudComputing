@@ -1,0 +1,72 @@
+#Let's use the 3rd version of the Docker Compose file format
+version: '3'
+#This docker compose file defines 3 services : 'mongodb', 'nodejs-server' and 'vue-ui'
+services:
+  #1
+  mongodb:
+    #The service uses the latest 'mongo' image
+    image: mongo:latest
+    #It is connected to the 'networkproject' network
+    container_name: mongodb
+    #It mounts 4 directories as volumes inside the container
+    volumes:
+      #Let's bind mount the folder containing the script to seed our database
+      - ./Database_mongo/mongo-entrypoint:/docker-entrypoint-initdb.d
+      #Let's bind mount the json files to seed our database
+      - ./Database_mongo/films.json:/films.json
+      - ./Database_mongo/users.json:/users.json
+      #This is the volume to make our database persistent
+      - project-db:/data/db
+    #It is connected to the 'networkproject' network
+    networks:
+      - networkproject
+    #Let's seed our database before starting it
+    command: mongod; /bin/bash /docker-entrypoint-initdb.d/seed.sh
+  
+  #2
+  vue-ui:
+    #It sets the container name to 'frontend'
+    container_name: vue-ui
+    #The service is built using the Dockerfile specified with its localization
+    build:
+      context: ./vuejs-auth-demo-master/vuejs-auth-demo-master
+    #It exposes the port 8080
+    ports:
+      - 8080:8080
+    #It mounts two directories as volumes inside the container
+    depends_on:
+      - nodejs-server
+    #It is connected to the 'networkproject' network
+    networks:
+      - networkproject
+
+  #3
+  nodejs-server:
+    #It sets the container name to 'backend'
+    container_name: nodejs-server
+    #It sets the environment variable 'MONGO-URI' with the connection string for 'mongodb' service
+    environment:
+      #protocol prefix/hostname of the mongodbservice/port number/name of the database
+      - MONGO_URI=mongodb://mongodb:27017/test_db
+      - JWT_SECRET=Hahayoudontknowmypassword
+    #The service is built using the Dockerfile specified with its localization
+    build:
+      context: ./secure-web-dev-backend
+    #It specifies that the service depends on the 'mongodb' service
+    depends_on:
+      - mongodb
+    #It exposes the port 3000
+    ports:
+      - 3000:3000
+    #It is connected to the 'networkproject' network
+    networks:
+      - networkproject
+
+#Custom network so the 3 services can communicate with each other
+networks:
+  networkproject:
+    #It specifies the type of network that is used for 'networkproject'
+    driver: bridge
+#Its mounts the database inside the container
+volumes:
+  project-db:

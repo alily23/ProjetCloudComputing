@@ -1,0 +1,7 @@
+{
+	"_id": { "$oid": "63e0d14e5e5a9aba75f7d373" },
+	"username": "alison23",
+	"password": "$2b$10$zs0.pkE3HCzgpz1VWHs.wu4WX972I.4BdAJIpczr31O7Lpny2vPe6",
+	"role": "admin",
+	"__v": { "$numberInt": "0" }
+}
